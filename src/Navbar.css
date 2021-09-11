@@ -1,0 +1,22 @@
+
+
+ul{
+    background-color: blue; 
+    
+    height: 50px;
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+
+li a{
+    float: left;
+    
+    margin: 10px;
+    color: white;
+    
+}
