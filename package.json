@@ -1,6 +1,7 @@
 {
   "homepage": "https://rajatmehta25.github.io/Reacttvapp",
   "name": "tvapp",
+  "repository": "https://github.com/RajatMehta25/Reacttvapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
