@@ -1,10 +1,7 @@
 {
-  
   "name": "tvapp",
   "homepage": "https://RajatMehta25.github.io/Reacttvapp/",
-  
   "version": "0.1.0",
-  
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -16,7 +13,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
