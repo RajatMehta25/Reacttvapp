@@ -20,8 +20,8 @@ function ncard(val){
     return (
 <Card title={val.title} 
       link={val.link}
-
-
+imgsrc={val.imgsrc}
+watch={val.watch}
 />);
 }
 
