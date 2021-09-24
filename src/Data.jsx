@@ -300,273 +300,273 @@ const Data = [
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Sony_MAX2",
+    title:"Sony MAX2",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Enterr_10.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Enterr_10",
+    title:"Enterr 10",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Cineplex.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Colors_Cineplex",
+    title:"Colors Cineplex",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Anmol_Cinema.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Zee_Anmol_Cinema",
+    title:"Zee Anmol Cinema",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/BOX_CINEMA.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=BOX_CINEMA",
+    title:"BOX CINEMA",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Maha_Movies.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Maha_Movies",
+    title:"Maha Movies",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Sony_Pix_HD",
+    title:"Sony Pix HD",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/HBO_HD.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=HBO_HD",
+    title:"HBO HD",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/WB.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=WB",
+    title:"Warner Brothers",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Hi_Dost.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Hi_Dost",
+    title:"Hi Dost",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Channel_One_News.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Channel_One_News",
+    title:"Channel One News",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/K_News_India.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=K_News_India",
+    title:"K News India",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/DNN.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=DNN",
+    title:"DNN",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/DD_Sports.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=DD_Sports",
+    title:"DD Sports",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Ten_HD",
+    title:"SonyTen 1 HD",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Ten_1",
+    title:"SonyTen 1",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Ten2_HD",
+    title:"SonyTen 2 HD",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Ten_2",
+    title:"SonyTen 2",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Ten3_HD",
+    title:"SonyTen 3 HD",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Ten_3",
+    title:"SonyTen 3",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Six_HD",
+    title:"Sony Six HD",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Six_SD.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Sony_Six_SD",
+    title:"Sony Six",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Dsports.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Dsports",
+    title:"Eurosport",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Dsports_HD.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Dsports_HD",
+    title:"Eurosport HD",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Manjari_TV.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Manjari_TV",
+    title:"Manjari TV",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/HHDL.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=HHDL",
+    title:"HHDL",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Top_Tutor.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Top_Tutor",
+    title:"Top Tutor",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/RT_TV.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=RT_TV",
+    title:"RT TV",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Reporter_TV.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Reporter_TV",
+    title:"Reporter TV",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Jio_KIDS.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Jio_KIDS",
+    title:"Jio KIDS",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Utkarsh_Primary.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Utkarsh_Primary",
+    title:"Utkarsh Primary",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Utkarsh_Middle.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Utkarsh_Middle",
+    title:"Utkarsh Middle",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Utkarsh_Secondary.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Utkarsh_Secondary",
+    title:"Utkarsh Secondary",
     watch:"WATCH LIVE"
 },
 
 {
      
-    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/.png",
-    link:"http://103.217.221.64/snehjiotv/play.php?c=",
-    title:"",
+    imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Utkarsh_Higher.png",
+    link:"http://103.217.221.64/snehjiotv/play.php?c=Utkarsh_Higher",
+    title:"Utkarsh Higher",
     watch:"WATCH LIVE"
 },
 
