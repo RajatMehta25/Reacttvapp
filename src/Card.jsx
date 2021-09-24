@@ -2,6 +2,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import react from "react";
 import Data from "./Data";
 import "./Card.css";
+import "../node_modules/animate.css";
+
 
 
 
@@ -13,7 +15,7 @@ const Card = (props) => {
 
     return (
         <>
-        <div className="card " style={styling}>
+        <div className="card animate_animated animate__flip" style={styling}>
         <img src={props.imgsrc} className="card-img-top" alt="..."/>
         
             

@@ -9,3 +9,19 @@ font-style: italic;
 
 
 }
+.live{
+    color: red;
+    font-size: 80px;
+    opacity: 0.3;
+    text-align: center;
+
+    width: 100%;
+    animation: flash;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    
+    
+}
+.animate_animated.animate__flash{
+    opacity: 0.5;
+}
