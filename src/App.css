@@ -27,11 +27,24 @@ font-style: italic;
 }
 .instalink{
     text-decoration: none;
-  color: rgb(209, 12, 209);
+  font-family: cursive;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-size: 30px;
 }
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
 .instalink:hover{
-    font-size: 30px;
-    color: springgreen;
+    
+    color: white;
 }
 #search1{
     text-align: center;
@@ -64,4 +77,11 @@ font-style: italic;
     margin-top: 2px;
     color: white;
     
+}
+.text-center{
+    color: white;
+}
+.optgroup{
+    width: 60%;
+
 }

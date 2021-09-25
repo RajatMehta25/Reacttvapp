@@ -54,6 +54,7 @@ if(x){
         watch={val.watch}
         />);
     }
+    
 
 };
 
@@ -61,7 +62,7 @@ return (
     <>
     <div>
     <h1 className="heading">THE FREE TV APP</h1>
-    <h5 className="bg-light text-center" >Developed by : <a className="instalink" href="https://www.instagram.com/thatsuaveboy/">RAJAT MEHTA</a></h5>
+    <h5 className=" text-center" >Developed by :&emsp; <a className="instalink" href="https://www.instagram.com/thatsuaveboy/">RAJAT MEHTA</a></h5>
     <h1 className="live animate_animated animate__pulse">&#9679;LIVE</h1></div>
     <Navbar/>
     <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बे" id="search" value={search2} onChange={Inputevent}/><span className="material-icons">search</span></div>
