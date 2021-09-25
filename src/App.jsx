@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import  { useState } from "react";
 import Data from "./Data";
 import Navbar from "./Navbar";
 import Card from "./Card";
@@ -24,13 +24,14 @@ const Inputevent=(event)=>{
     const qr=sata.toLowerCase();
     searchresult(qr);}
 
-function ncard(val){
+function ncard(val,index){
     
     return (
 <Card title={val.title} 
       link={val.link}
 imgsrc={val.imgsrc}
 watch={val.watch}
+key={index}
 />);
 }
 
@@ -39,12 +40,12 @@ function zcard(val){
     const lower=val.title;
     const q=lower.toLowerCase();
     
-    const x=q.charAt(0);
-    
+  // const x=q.charAt(0);
+    const x=q.includes(search2);
    
     
    
-if(search2===x||search2===q){
+if(x){
 
     return (
         <Card title={val.title} 
@@ -53,6 +54,7 @@ if(search2===x||search2===q){
         watch={val.watch}
         />);
     }
+
 };
 
 return (
