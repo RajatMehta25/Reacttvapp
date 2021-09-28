@@ -13,8 +13,8 @@ const Card = (props) => {
 
     return (
         <>
-        <div className="card animate_animated animate__flip" style={styling}>
-        <img src={props.imgsrc} className="card-img-top" alt="..."/>
+        <div className="card" style={styling}>
+        <img src={props.imgsrc} className="card-img-top" alt="SABRR KRO"/>
         
             
   

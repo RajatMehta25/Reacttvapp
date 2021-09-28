@@ -1,10 +1,12 @@
-import  { useState } from "react";
+import  { useState,useRef,useEffect } from "react";
 import Data from "./Data";
 import Navbar from "./Navbar";
 import Card from "./Card";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/animate.css";
+import SpeechRecognition,{useSpeechRecognition} from "react-speech-recognition";
+
 
 
 
@@ -17,12 +19,96 @@ const sty={
 }
 
 const App = () => {
+    
 
     const [search2,searchresult]=useState('');
 const Inputevent=(event)=>{
     const sata= event.target.value;
     const qr=sata.toLowerCase();
-    searchresult(qr);}
+    searchresult(qr);
+}
+const commands = [
+    {
+        command: "clear",
+        callback: ({resetTranscript}) => resetTranscript()
+      },
+      {
+        command: "light mode",
+        callback: () => {
+          
+          document.getElementById('root').style.backgroundColor = 'white';
+           
+          document.querySelector(".namee__word").style.textShadow="0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000";
+          document.querySelector(".material-icons").style.color= 'black';
+
+    },
+    },
+        {
+          command: "dark mode",
+          callback: () => {
+            document.getElementById('root').style.backgroundColor = 'black';
+            document.querySelector(".material-icons").style.color= 'white';
+            document.querySelector(".namee__word").style.textShadow="0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6";
+          },
+        }
+];
+
+const { transcript,interimTranscript,finalTranscript,resetTranscript } = useSpeechRecognition({commands});
+    const [isListening, setIsListening] = useState(false);
+   
+    
+const Inputevent2=()=>{
+
+    
+    if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
+      alert('Browser is not Support Speech Recognition.')
+    }
+    const handleListing = () => {
+    //   setIsListening(true);
+     
+      SpeechRecognition.startListening({
+        continuous: false,
+        language: 'en-IN',
+        interimTranscript:true
+        // setTimeout:1000
+        
+      });
+      
+      // searchresult({search2:interimTranscript})
+     
+        // rendering the view as expected
+    
+      
+    //    setIsListening(false);
+      
+    };
+    const stopHandle = () => {
+      setIsListening(false);
+      
+      SpeechRecognition.stopListening();
+    };
+    const handleReset = () => {
+      stopHandle();
+      resetTranscript();
+    };
+    
+     
+          
+       isListening?setIsListening(false):handleListing()
+            // isListening ? alert("stopped"): alert("Press OK and continue Speaking") 
+            
+            
+// const resu = finalTranscript.toLocaleLowerCase();
+            
+              // searchresult(resu);
+            
+              searchresult(transcript.toLocaleLowerCase())
+            
+
+// resetTranscript();
+    
+}; 
+
 
 function ncard(val,index){
     
@@ -60,13 +146,14 @@ if(x){
 
 return (
     <>
-    <div>
+    <div className="header">
     <h1 className="heading">THE FREE TV APP</h1>
-    <h5 className=" text-center" >Developed by :&emsp; <a className="instalink" href="https://www.instagram.com/thatsuaveboy/">RAJAT MEHTA</a></h5>
-    <h1 className="live animate_animated animate__pulse">&#9679;LIVE</h1></div>
+    <h4 className="heading">Developed By :</h4>
+    <div className="namee"><a className="namee__word" href="https://www.instagram.com/thatsuaveboy/">RAJAT MEHTA</a></div>
+   {/*  <h1 className="live ">&#9679;LIVE</h1> */}</div>
     <Navbar/>
-    <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बे" id="search" value={search2} onChange={Inputevent}/><span className="material-icons">search</span></div>
-  <div style={sty}>{search2===''?Data.map(ncard):Data.map(zcard)}</div>
+    <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons"  onClick={Inputevent2} >keyboard_voice</span></div>
+  <div className="rendered" style={sty}>{search2===''?Data.map(ncard):Data.map(zcard)}</div>
     </>
 
 

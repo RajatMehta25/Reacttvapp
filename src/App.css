@@ -9,9 +9,13 @@ font-style: italic;
 
 
 }
-.live{
+
+.animate__animated{
+    animation-fill-mode: none !important;
+}
+/* .live{
     color: red;
-    font-size: 80px;
+    
     opacity: 0.3;
     text-align: center;
 
@@ -21,28 +25,50 @@ font-style: italic;
     animation-duration: 1s;
     
     
+} */
+
+
+.namee{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 70px;
+
 }
-.animate_animated.animate__flash{
-    opacity: 0.5;
+    .namee>a{
+        color: white;
+        
+        text-decoration: none;
+   
+   
+    font-family: cursive;
+    
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+
+ position: fixed;
+ animation: pulse;
+ animation-iteration-count: infinite;
+    animation-duration: 2s;
+   font-size: 40px;
 }
-.instalink{
-    text-decoration: none;
-  font-family: cursive;
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
-  font-size: 30px;
+
+.namee__word:hover{
+    transform: scale3d(1.5,1.5,1.5);
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+
 }
-@keyframes glow {
+
+/*  puddu {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
-  }
-.instalink:hover{
+  } */
+
+.namee__word:hover{
     
     color: white;
 }
@@ -78,10 +104,9 @@ font-style: italic;
     color: white;
     
 }
-.text-center{
-    color: white;
+.material-icons:hover{
+    color: red;
+    cursor: pointer;
 }
-.optgroup{
-    width: 60%;
 
-}
+
