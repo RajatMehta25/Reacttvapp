@@ -23,6 +23,7 @@ const App = () => {
 
     const [search2,searchresult]=useState('');
 const Inputevent=(event)=>{
+  
     const sata= event.target.value;
     const qr=sata.toLowerCase();
     searchresult(qr);
@@ -30,7 +31,7 @@ const Inputevent=(event)=>{
 const commands = [
     {
         command: "clear",
-        callback: ({resetTranscript}) => resetTranscript()
+        callback: ({resetTranscript}) =>  resetTranscript() 
       },
       {
         command: "light mode",
@@ -40,6 +41,7 @@ const commands = [
            
           document.querySelector(".namee__word").style.textShadow="0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000";
           document.querySelector(".material-icons").style.color= 'black';
+          searchresult(" ");
 
     },
     },
@@ -49,17 +51,19 @@ const commands = [
             document.getElementById('root').style.backgroundColor = 'black';
             document.querySelector(".material-icons").style.color= 'white';
             document.querySelector(".namee__word").style.textShadow="0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6";
+          searchresult(" ");
           },
         }
 ];
 
 const { transcript,interimTranscript,finalTranscript,resetTranscript } = useSpeechRecognition({commands});
     const [isListening, setIsListening] = useState(false);
-   
-    
-const Inputevent2=()=>{
+   const [setfield,setfi]=useState();
 
     
+ const Inputevent2=()=>{
+
+
     if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
       alert('Browser is not Support Speech Recognition.')
     }
@@ -73,7 +77,8 @@ const Inputevent2=()=>{
         // setTimeout:1000
         
       });
-      
+     
+    
       // searchresult({search2:interimTranscript})
      
         // rendering the view as expected
@@ -82,15 +87,15 @@ const Inputevent2=()=>{
     //    setIsListening(false);
       
     };
-    const stopHandle = () => {
-      setIsListening(false);
+    // const stopHandle = () => {
+    //   setIsListening(false);
       
-      SpeechRecognition.stopListening();
-    };
-    const handleReset = () => {
-      stopHandle();
-      resetTranscript();
-    };
+    //   SpeechRecognition.stopListening();
+    // };
+    // const handleReset = () => {
+    //   stopHandle();
+    //   resetTranscript();
+    // };
     
      
           
@@ -98,12 +103,14 @@ const Inputevent2=()=>{
             // isListening ? alert("stopped"): alert("Press OK and continue Speaking") 
             
             
-// const resu = finalTranscript.toLocaleLowerCase();
+const resu = finalTranscript.toLocaleLowerCase();
             
-              // searchresult(resu);
+           
             
-              searchresult(transcript.toLocaleLowerCase())
+              
+            searchresult(resu);
             
+            console.log(resu);
 
 // resetTranscript();
     
