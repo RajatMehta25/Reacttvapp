@@ -1,0 +1,77 @@
+
+.card{
+    border-radius: 10px;
+    background-color: burlywood;
+    perspective: 1px;
+    text-shadow: none !important;
+    }
+    .card-body{
+      text-shadow: none !important;
+
+    }
+    .card:hover{
+        box-shadow: 5px 10px 20px #42b960;
+        cursor: pointer;
+       animation: jhuddu;
+       animation-iteration-count: 2 !important;
+       animation-duration: 2s;
+       animation-fill-mode: none;
+       z-index: 25;
+       text-shadow: none !important;
+       
+       
+    
+    }
+    .card-title {
+      text-shadow: none !important;
+    }
+    .btn-primary{
+      text-shadow: none !important;
+    }
+    @keyframes jhuddu {
+         from {
+          -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+          transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+          
+        } 
+      
+        40% {
+          -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+            rotate3d(0, 1, 0, -190deg);
+          transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+            rotate3d(0, 1, 0, -190deg);
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+         
+        }
+      
+        50% {
+          -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+            rotate3d(0, 1, 0, -170deg);
+          transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+            rotate3d(0, 1, 0, -170deg);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+         
+        }
+      
+        80% {
+          -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+            rotate3d(0, 1, 0, 0deg);
+          transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+            rotate3d(0, 1, 0, 0deg);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+         
+        }
+      
+         to {
+          -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+          transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+
+        } 
+      }
