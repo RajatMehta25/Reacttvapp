@@ -1,0 +1,17 @@
+.play{
+    margin-top: 10px;
+   padding-bottom: 10px;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+justify-content: center;
+}
+.play> * {
+    border: 1px solid plum;
+    border-radius: 3px;
+}
+.play > * :hover{
+    box-shadow: 2px 4px 6px purple;
+}

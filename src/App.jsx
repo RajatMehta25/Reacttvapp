@@ -11,6 +11,8 @@ import SpeechRecognition,{useSpeechRecognition} from "react-speech-recognition";
 
 
 
+
+
 const sty={
     clear:"left",
     display:"flex",
@@ -144,6 +146,8 @@ if(x){
 
 return (
     <>
+    
+    
     <div className="header">
     <h1 className="heading">THE FREE TV APP</h1>
     <h4 className="heading">Developed By :</h4>
