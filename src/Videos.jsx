@@ -312,17 +312,137 @@ const Videos = [
 }
 ,
 {
-    title:"",
-    src:"",
+    title:"mtv beats",
+    src:"https://livevoot-i.akamaihd.net/dash/live/828547/mtvbeats/master.mpd",
     post:""
 }
 ,
 {
-    title:"",
-    src:"",
+    title:"astro 1",
+    src:"http://50.7.161.82:8278/streams/d/assp1_pye/playlist.m3u8",
     post:""
 }
 ,
+{
+    title:"star plus hd",
+    src:"https://itpolly.iptv.digijadoo.net/live/star_plus_hd/chunks.m3u8",
+    post:""
+},
+{
+    title:"star plus sd",
+    src:"https://itpolly.iptv.digijadoo.net/live/star_plus/chunks.m3u8",
+    post:""
+},
+{
+    title:"Star Sports",
+    src:"http://87.117.234.107:1935/live/StarSports1FHD/playlist.m3u8",
+    post:""
+},
+{
+    title:"Star Sports Select 2 HD",
+    src:"http://87.117.234.107:1935/live/StarSports2FHD/playlist.m3u8",
+    post:""
+},
+{
+    title:"Star Sports Select 1 HD",
+    src:"http://iptv.kitv.live:1935/live/Shari/MTV-P/194.m3u8",
+    post:""
+},
+{
+    title:"Star Sports Select 2 HD",
+    src:"http://iptv.kitv.live:1935/live/Shari/MTV-P/163.m3u8",
+    post:""
+},
+{
+    title:"Star Sports Select 1 HD",
+    src:"http://45.249.187.238:8081/hls/new2.m3u8",
+    post:""
+},
+{
+    title:"Star Sports 1 Hindi",
+    src:"http://87.117.234.107:1935/live/StarSports1FHD/playlists.m3u8",
+    post:""
+},
+{
+    title:"",
+    src:"https://poscitech.club/tv/ch125.php",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
+{
+    title:"",
+    src:"",
+    post:""
+},
 {
     title:"",
     src:"",

@@ -106,15 +106,16 @@ useEffect(() => {
 },[transcript])
 
 function ncard(val,index){
-    
-    return (
+  if(val.title!=="TV DOWN"){
+  return (  
+   
 <Card title={val.title} 
       link={val.link}
 imgsrc={val.imgsrc}
 watch={val.watch}
 key={index}
 />);
-}
+}}
 
 
 function zcard(val){

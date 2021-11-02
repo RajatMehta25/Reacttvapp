@@ -1,5 +1,5 @@
 import React from 'react'
-import './Blink.css'
+
 
 
 
@@ -11,7 +11,7 @@ const Blink = (props) => {
     id="my-video"
     className="video-js"
     controls
-    preload="auto"
+    preload="meta"
     width="300"
     height="250"
     poster={props.poster}
