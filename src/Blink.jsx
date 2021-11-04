@@ -1,5 +1,5 @@
 import React from 'react'
-
+import videojs from 'video.js'
 
 
 
@@ -7,11 +7,11 @@ import React from 'react'
 const Blink = (props) => {
     return (
         <div>
-            <video 
-    id="my-video"
+         <video 
+    id="my-player"
     className="video-js"
     controls
-    preload="meta"
+    preload="none"
     width="300"
     height="250"
     poster={props.poster}
@@ -22,6 +22,7 @@ const Blink = (props) => {
   >
     <source src={props.src} type="application/x-mpegURL"  />
     
+
   </video>
         </div>
     )

@@ -9,6 +9,7 @@ const Main = () => {
       <Route exact path="/Reacttvapp" component={App} />
       <Route exact path="/" component={App} />
       <Route exact path="/server2" component={Play} />
+      <Route />
     </Switch>
         </>
     )

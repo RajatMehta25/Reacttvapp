@@ -7,6 +7,9 @@ import './App.css'
 import './Navbar.css'
 import './Play.css'
 import './Blink.css'
+import { IconButton } from '@mui/material';
+import { Mic} from '@material-ui/icons';
+
 import SpeechRecognition,{useSpeechRecognition} from "react-speech-recognition";
 const Play = () => {
 
@@ -149,12 +152,12 @@ alert("Refresh The Page Once");
         <>
        
         <div className="header">
-        <h1 className="heading">THE FREE TV APP</h1>
+        {/* <h1 className="heading">THE FREE TV APP</h1> */}
         <h4 className="heading">Developed By :</h4>
         <div className="namee"><a className="namee__word" href="https://www.instagram.com/thatsuaveboy/">RAJAT MEHTA</a></div>
        </div>
         <Navbar/>
-        <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons"  onClick={Inputevent2} >keyboard_voice</span></div>
+        <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons"  onClick={Inputevent2} ><IconButton><Mic  /></IconButton></span></div>
         <div className="play">
             {search2===''?Videos.map(ncard):Videos.map(zcard) }
         </div>

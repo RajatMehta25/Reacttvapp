@@ -23,3 +23,35 @@ li a{
     color: white;
     
 }
+
+ul:hover{
+    animation-name: run;
+    animation-duration: 1s;
+    
+    border-radius: 10px;
+    
+    
+ }
+ @keyframes run {
+     0%{
+          background-color: red ;
+          
+          width: 100%;
+     }
+25%{
+ background-color: aqua;
+ width: 100%;
+}
+50%{
+ background-color: green;
+ width: 100%;
+}
+75%{
+ background-color: indigo;
+ width: 100%;
+}
+100%{
+ background-color: black;
+ width: 100%;
+}
+ }

@@ -10,3 +10,10 @@ body {
   border-bottom: 5px solid red;
   border-radius: 5px;
 }
+.MuiSvgIcon-root{
+  color: white;
+  font-size: 50px !important;
+}
+.MuiSvgIcon-root:hover{
+  color: red;
+}
