@@ -8,6 +8,7 @@ import "../node_modules/animate.css";
 import SpeechRecognition,{useSpeechRecognition} from "react-speech-recognition";
 import { IconButton } from '@mui/material';
 import { Mic} from '@material-ui/icons';
+import { color, style } from "@mui/system";
 
 
 
@@ -46,7 +47,8 @@ const commands = [
           document.getElementById('root').style.backgroundColor = 'white';
            
           document.querySelector(".namee__word").style.textShadow="0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000";
-          document.querySelector(".material-icons").style.color= 'black';
+          document.querySelector(".MuiSvgIcon-root").style.color= 'black';
+         
           searchresult(" ");
 
     },
@@ -55,7 +57,8 @@ const commands = [
           command: "dark mode",
           callback: () => {
             document.getElementById('root').style.backgroundColor = 'black';
-            document.querySelector(".material-icons").style.color= 'white';
+            document.querySelector(".MuiSvgIcon-root").style.color= 'white';
+            
             document.querySelector(".namee__word").style.textShadow="0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6";
           searchresult(" ");
           },},

@@ -106,7 +106,7 @@ const Videos = [
     post:"https://1.bp.blogspot.com/-pY7gZbSDt7M/YOv71mYSNQI/AAAAAAAAAXc/nSFS4O8T_U0xZ001vsfLtKHzNuUznB-oACLcBGAsYHQ/s200/images%2B%252814%2529%25281%2529.jpeg"
 },
 {
-    title:"",
+    title:"Star Plus HD",
     src:"",
     post:""
 },
