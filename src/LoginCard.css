@@ -1,0 +1,34 @@
+.textdisp{
+    color: white !important;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.Log{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+input{
+    border-radius: 10px;
+    width: 80vw;
+    align-self: center;
+    height: 6vh;
+}
+.but{
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 80vw;
+    align-self: center;
+    font-size: 1.5rem;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: burlywood;
+}
+html{
+    background-color: black;
+}
