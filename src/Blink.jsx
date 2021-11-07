@@ -21,7 +21,7 @@ const Blink = (props) => {
     data-setup="{}"
   >
     <source src={props.src} type="application/x-mpegURL"  />
-    
+    <source src={props.src} type="application/dash+xml"  />
 
   </video>
         </div>
