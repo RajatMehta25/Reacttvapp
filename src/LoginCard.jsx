@@ -16,17 +16,33 @@ setuid(e.target.value);
         setpass(e.target.value);
        
             }
+
+           
             const fun3=()=>{
-            if (uid===Login[0].uid && pass===Login[0].pass)
+                if (uid && pass){
+               for (let i=0;i<Login.length;i++){
+             if (uid===Login[i].uid && pass===Login[i].pass)
             
-            {
-              
-                history.push("/Reacttvapp")
-              
+            { 
+                
+            //  console.log("hello")
+                  history.push("/Reacttvapp")
+                
+            }
+            
+        
+               }
             }
             else{
-               return    document.write("<h1>ERROR !</h1>")
-            }}
+                
+                 document.write("<h1>ERROR !</h1>")
+                
+           }
+        }
+               
+               
+
+            
     return (
         <>
         <div className="Log">
