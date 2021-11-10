@@ -25,11 +25,12 @@ setuid(e.target.value);
             
             { 
                 
+
             //  console.log("hello")
                   history.push("/Reacttvapp")
                 
             }
-            
+         
         
                }
             }
