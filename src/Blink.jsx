@@ -11,7 +11,7 @@ const Blink = (props) => {
     id="my-player"
     className="video-js"
     controls
-    preload="none"
+    preload="auto"
     width="300"
     height="250"
     poster={props.poster}
@@ -22,6 +22,7 @@ const Blink = (props) => {
   >
     <source src={props.src} type="application/x-mpegURL"  />
     <source src={props.src} type="application/dash+xml"  />
+    {/* <source src={props.src} type="application/"  /> */}
 
   </video>
         </div>

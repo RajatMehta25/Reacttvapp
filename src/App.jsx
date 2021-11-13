@@ -156,10 +156,9 @@ return (
     
     
     <div className="header">
-    {/* <h1 className="heading">THE FREE TV APP</h1> */}
     <h4 className="heading">Developed By :</h4>
     <div className="namee"><a className="namee__word" href="https://www.instagram.com/thatsuaveboy/">RAJAT MEHTA</a></div>
-   {/*  <h1 className="live ">&#9679;LIVE</h1> */}</div>
+   </div>
     <Navbar/>
     <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons"  onClick={Inputevent2} ><IconButton><Mic  /></IconButton></span></div>
   <div className="rendered" style={sty}>{search2===''?Data.map(ncard):Data.map(zcard)}</div>
