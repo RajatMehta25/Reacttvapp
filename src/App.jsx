@@ -120,6 +120,7 @@ function ncard(val,index){
 imgsrc={val.imgsrc}
 watch={val.watch}
 key={index}
+
 />);
 }}
 
@@ -161,6 +162,7 @@ return (
    </div>
     <Navbar/>
     <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons"  onClick={Inputevent2} ><IconButton><Mic  /></IconButton></span></div>
+    
   <div className="rendered" style={sty}>{search2===''?Data.map(ncard):Data.map(zcard)}</div>
     </>
 

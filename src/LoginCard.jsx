@@ -47,10 +47,11 @@ setuid(e.target.value);
     return (
         <>
         <div className="Log">
+            <div className="LogContainer">
           <span className="textdisp">UID :</span>  <input type="text" name="uid" id="uid" onChange={fun1}  value={uid}/>
           <span className="textdisp">Password :</span> <input type="password" name="Pass" id="Pass" onChange={fun2} value={pass} />
         <button className="but" onClick={fun3}>Submit</button>
-        </div>
+        </div></div>
         </>
     )
 }
