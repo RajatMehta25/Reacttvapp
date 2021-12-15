@@ -34,20 +34,20 @@ ul:hover{
  }
  @keyframes run {
      0%{
-          background-color: red ;
+          background-color: black ;
           
           width: 100%;
      }
 25%{
- background-color: aqua;
+ background-color:#909090;
  width: 100%;
 }
 50%{
- background-color: green;
+ background-color: black;
  width: 100%;
 }
 75%{
- background-color: indigo;
+ background-color:#A9A9A9;
  width: 100%;
 }
 100%{

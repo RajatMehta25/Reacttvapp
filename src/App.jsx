@@ -163,7 +163,7 @@ return (
     <Navbar/>
     <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons"  onClick={Inputevent2} ><IconButton><Mic  /></IconButton></span></div>
     
-  <div className="rendered" style={sty}>{search2===''?Data.map(ncard):Data.map(zcard)}</div>
+  <div className="rendered" style={sty}>{search2===''?<h1 style={{color:'white'}}>TYPE CHANNEL NAME </h1>:Data.map(zcard)}</div>
     </>
 
 
