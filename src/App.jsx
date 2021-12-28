@@ -28,7 +28,16 @@ const App = () => {
     
 
     const [search2,searchresult]=useState('');
-    
+    const [allData,setAllData]=useState()
+
+
+    useEffect(() => {
+  
+      localStorage.setItem("allData",JSON.stringify(Data))
+     
+      setAllData(  localStorage.getItem("allData") )
+    },[])
+  
 const Inputevent=(event)=>{
   
     const sata= event.target.value;
@@ -126,13 +135,15 @@ key={index}
 
 
 function zcard(val){
-    const lower=val.title;
-    const q=lower.toLowerCase();
+  console.log(val);
+  if (val!==null){
+    const lower=(val.title===null?"":val.title);
+    const q=(lower===""?"":lower.toLowerCase());
     
   
     const x=q.includes(search2);
     
-    
+  
    
     
    
@@ -150,7 +161,7 @@ if(x){
 
 
 
-};
+}};
 
 return (
     <>
@@ -163,7 +174,7 @@ return (
     <Navbar/>
     <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons"  onClick={Inputevent2} ><IconButton><Mic  /></IconButton></span></div>
     
-  <div className="rendered" style={sty}>{search2===''?<h1 style={{color:'white'}}>TYPE CHANNEL NAME </h1>:Data.map(zcard)}</div>
+  <div className="rendered" style={sty}>{search2===''?<h1 style={{color:'white'}}>TYPE CHANNEL NAME </h1>:JSON.parse(allData).map(zcard)}</div>
     </>
 
 
