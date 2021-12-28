@@ -8,6 +8,7 @@ import "../node_modules/animate.css";
 import SpeechRecognition,{useSpeechRecognition} from "react-speech-recognition";
 import { IconButton } from '@mui/material';
 import { Mic} from '@material-ui/icons';
+import LockOpenIcon from '@mui/icons-material/LockOpen';
 
 
 
@@ -174,7 +175,7 @@ return (
     <Navbar/>
     <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons"  onClick={Inputevent2} ><IconButton><Mic  /></IconButton></span></div>
     
-  <div className="rendered" style={sty}>{search2===''?<h1 style={{color:'white'}}>TYPE CHANNEL NAME </h1>:JSON.parse(allData).map(zcard)}</div>
+  <div className="rendered" style={sty}>{search2===''?<><div style={{textAlign:'center'}}><h1 style={{color:'white',fontFamily: 'Lato'}}>ENTER CHANNEL NAME <LockOpenIcon/> </h1><img style={{borderRadius:10,height:"60vh",width:"60vw"}} src="https://www.denofgeek.com/wp-content/uploads/2021/05/Tom-Cruise-in-Mission-Impossible-Vault.jpeg?resize=768%2C432" /></div></>:JSON.parse(allData).map(zcard)}</div>
     </>
 
 
