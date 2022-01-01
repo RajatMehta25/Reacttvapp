@@ -16,7 +16,7 @@ const Blink = (props) => {
     height="250"
     poster={props.poster}
     
-    
+    playsInline
     
     data-setup="{}"
   >
