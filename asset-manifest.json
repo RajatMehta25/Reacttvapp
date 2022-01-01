@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Reacttvapp/static/css/main.756cba81.chunk.css",
-    "main.js": "/Reacttvapp/static/js/main.3c0ee5da.chunk.js",
-    "main.js.map": "/Reacttvapp/static/js/main.3c0ee5da.chunk.js.map",
+    "main.css": "/Reacttvapp/static/css/main.10d9fd42.chunk.css",
+    "main.js": "/Reacttvapp/static/js/main.d2efa6b7.chunk.js",
+    "main.js.map": "/Reacttvapp/static/js/main.d2efa6b7.chunk.js.map",
     "runtime-main.js": "/Reacttvapp/static/js/runtime-main.7c1434a5.js",
     "runtime-main.js.map": "/Reacttvapp/static/js/runtime-main.7c1434a5.js.map",
     "static/css/2.c5aefd4d.chunk.css": "/Reacttvapp/static/css/2.c5aefd4d.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.34c2f3e8.chunk.js.map": "/Reacttvapp/static/js/2.34c2f3e8.chunk.js.map",
     "index.html": "/Reacttvapp/index.html",
     "static/css/2.c5aefd4d.chunk.css.map": "/Reacttvapp/static/css/2.c5aefd4d.chunk.css.map",
-    "static/css/main.756cba81.chunk.css.map": "/Reacttvapp/static/css/main.756cba81.chunk.css.map",
+    "static/css/main.10d9fd42.chunk.css.map": "/Reacttvapp/static/css/main.10d9fd42.chunk.css.map",
     "static/js/2.34c2f3e8.chunk.js.LICENSE.txt": "/Reacttvapp/static/js/2.34c2f3e8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7c1434a5.js",
     "static/css/2.c5aefd4d.chunk.css",
     "static/js/2.34c2f3e8.chunk.js",
-    "static/css/main.756cba81.chunk.css",
-    "static/js/main.3c0ee5da.chunk.js"
+    "static/css/main.10d9fd42.chunk.css",
+    "static/js/main.d2efa6b7.chunk.js"
   ]
 }
