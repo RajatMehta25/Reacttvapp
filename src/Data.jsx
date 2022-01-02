@@ -102,8 +102,8 @@ watch:"WATCH LIVE"
 {
      
     imgsrc :"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Color_Cineplex_HD.png",
-    link:"http://jo123.biz/jweb/m3u8.php?c=Color_Cineplex_HD&q=",
-    title:"Color Cineplex HD",
+    link:"http://jo123.biz/jweb/m3u8.php?c=Colors_Cineplex_HD&q=",
+    title:"Colors Cineplex HD",
     watch:"WATCH LIVE"
 },
 
