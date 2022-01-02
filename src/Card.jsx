@@ -22,6 +22,7 @@ const Card = (props) => {
     <h5 className="card-title" name="title">{props.title}</h5>
     {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
     <div ><a href={props.link} target="_parent" rel="noreferrer" className="btn btn-primary">{props.watch}</a></div>
+    {console.log(props.link+props.qua)}
   </div>
               </div>
         </>
