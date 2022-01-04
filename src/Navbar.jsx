@@ -9,6 +9,8 @@ const Navbar = () => {
 <ul >
     <li ><NavLink exact activeClassName="active_link" to="/Reacttvapp">Home</NavLink></li>
     <li ><NavLink exact activeClassName="active_link" to="/server2">Server2</NavLink></li>
+    <li ><NavLink exact activeClassName="active_link" to="/server3">Server3</NavLink></li>
+
 </ul>
 
 
