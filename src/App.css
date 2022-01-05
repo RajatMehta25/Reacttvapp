@@ -110,5 +110,9 @@ min-height: 70px;
 }
 
 
-
+@media only screen and (max-width:1280px){
+    .micinvisible{
+    display:none;
+    
+    }}
 
