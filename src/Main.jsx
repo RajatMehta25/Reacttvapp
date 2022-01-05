@@ -4,6 +4,7 @@ import App from './App';
 // import LoginCard from './LoginCard';
 import Play from './Play';
 import Laptop from './Laptop';
+import Movies from './Movies'
 const Main = () => {
     return (
         <>
@@ -12,6 +13,8 @@ const Main = () => {
       <Route exact path="/" component={App} />
       <Route exact path="/server2" component={Play} />
       <Route exact path="/server3" component={Laptop}/>
+      <Route exact path="/Movies" component={Movies}/>
+
       <Route path="*" component={App}/>
     </Switch>
         </>
