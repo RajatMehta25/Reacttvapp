@@ -1,6 +1,7 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Card.css";
 import "../node_modules/animate.css";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -15,7 +16,7 @@ const Card = (props) => {
         <>
         <div className="card" style={styling}>
      
-        <a href={props.qua?props.link+props.qua:props.link} target="_parent" rel="noreferrer" className="" stle={{padding:30,textDecoration:'none',}}> <img src={props.imgsrc} style={{borderRadius:999999}} className="card-img-top" alt="SABRR KRO"  /></a>
+        <NavLink exact to={props.qua?props.link+props.qua:props.link} target="_parent" rel="noreferrer" className="" stle={{padding:30,textDecoration:'none',}}> <img src={props.imgsrc} style={{borderRadius:999999}} className="card-img-top" alt="SABRR KRO"  /></NavLink>
         
         <span style={{textDecoration:'none',color:'white',fontWeight:'bold',fontFamily:'Lato',position:'absolute',marginTop:220}}>{props.title}</span>
 
