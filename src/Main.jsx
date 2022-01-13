@@ -9,11 +9,11 @@ const Main = () => {
     return (
         <>
             <Switch>
-      <Route exact path="/Reacttvapp" component={App} />
-      <Route exact path="/" component={App} />
+      <Route exact path="/Reacttvapp" component={Laptop} />
+      <Route exact path="/" component={Laptop} />
       <Route exact path="/server2" component={Play} />
-      <Route exact path="/server3" component={Laptop}/>
-      <Route exact path="/Movies" component={Movies}/>
+      {/* <Route exact path="/server3" component={Laptop}/> */}
+      {/* <Route exact path="/Movies" component={Movies}/> */}
 
       <Route path="*" component={App}/>
     </Switch>
