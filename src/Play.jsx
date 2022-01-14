@@ -95,7 +95,7 @@ const Play = () => {
         
     },[transcript])
     useEffect(()=>{
-alert("Refresh The Page Once");
+alert("Refresh The Page Once if not working");
     },[])
     
     function ncard(val,index){

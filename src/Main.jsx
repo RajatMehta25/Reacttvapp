@@ -9,9 +9,9 @@ const Main = () => {
     return (
         <>
             <Switch>
-      <Route exact path="/Reacttvapp" component={Laptop} />
-      <Route exact path="/" component={Laptop} />
-      <Route exact path="/server2" component={Play} />
+      <Route exact path="/Reacttvapp" component={Play} />
+      <Route exact path="/" component={Play} />
+      <Route exact path="/server2" component={Laptop} />
       {/* <Route exact path="/server3" component={Laptop}/> */}
       {/* <Route exact path="/Movies" component={Movies}/> */}
 
