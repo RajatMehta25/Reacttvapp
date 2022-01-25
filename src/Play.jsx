@@ -191,6 +191,7 @@ return ()=>{
        </div>
         <Navbar/>
         <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons micinvisible"  onClick={Inputevent2} ><IconButton className=""><Mic  /></IconButton></span></div>
+      
         <div className="play" ref={box} >
             {search2===''?Videos.map(ncard):Videos.map(zcard) }
         </div>
