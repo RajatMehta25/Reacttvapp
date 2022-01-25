@@ -14,9 +14,18 @@ const Card = (props) => {
 
     return (
         <>
+        {/* <iframe name="frame" src="https://snehjiotv.in1.bitmana.io/play.php?c=Colors_HD" frameBorder="0" referrerPolicy="no-referrer" title="hello" ></iframe> */}
+        {/* <embed src="http://snehjiotv.in1.bitmana.io/play.php?c=Colors_HD" width="200px" height="200px" /> */}
+        {/* <object data="http://snehjiotv.in1.bitmana.io/play.php?c=Colors_HD"
+width="400px"
+height="300px"
+type="text/html">
+    Alternative Content
+</object> */}
+        
         <div className="card" style={styling}>
      
-        <a href={props.qua?props.link+props.qua:props.link} target="_parent" rel="noreferrer" className="" stle={{padding:30,textDecoration:'none',}}> <img src={props.imgsrc} style={{borderRadius:999999}} className="card-img-top" alt="SABRR KRO"  /></a>
+        <a href={props.qua?props.link+props.qua:props.link} target="frame" rel="noreferrer" className="" stle={{padding:30,textDecoration:'none',}}> <img src={props.imgsrc} style={{borderRadius:999999}} className="card-img-top" alt="SABRR KRO"  /></a>
         
         <span style={{textDecoration:'none',color:'white',fontWeight:'bold',fontFamily:'Lato',position:'absolute',marginTop:220}}>{props.title}</span>
 

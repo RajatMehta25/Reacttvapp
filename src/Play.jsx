@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect,useRef} from 'react'
 import Blink from './Blink'
 import Videos from './Videos'
 import Navbar from './Navbar'
@@ -14,7 +14,7 @@ import SpeechRecognition,{useSpeechRecognition} from "react-speech-recognition";
 const Play = () => {
 
     const [search2,searchresult]=useState('');
-    
+    const box = useRef(null);
     const Inputevent=(event)=>{
       
         const sata= event.target.value;
@@ -94,14 +94,45 @@ const Play = () => {
           searchresult(sr);
         
     },[transcript])
+
+
+useEffect(()=>{
+  
+ 
+
+  let options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 1.0
+  }
+  const loadingele=(entries,observer)=>{
+    // const [entry]=entries;
+    console.log(entries );
+  }
+
+
+let observer = new IntersectionObserver(loadingele, options);
+if(box.current) observer.observe(box.current)
+
+
+return ()=>{
+  if(box.current) observer.unobserve(box.current)
+}
+},[box])
+
     useEffect(()=>{
-alert("Refresh The Page Once if not working");
+// alert("Refresh The Page Once if not working");
     },[])
     
     function ncard(val,index){
         
+    
+    
+
         return (<>
+
             <Blink 
+            // ref={box}
             title={val.title}
              src={val.src} 
     poster={val.post} 
@@ -110,7 +141,7 @@ alert("Refresh The Page Once if not working");
     }
     
     
-    function zcard(val){
+    function zcard(val,index){
         const lower=val.title;
         const q=lower.toLowerCase();
         
@@ -127,7 +158,9 @@ alert("Refresh The Page Once if not working");
             <Blink 
             title={val.title}
              src={val.src} 
-    poster={val.post} />
+    poster={val.post} 
+    key={index}
+    />
            </> );
         }
         
@@ -158,7 +191,7 @@ alert("Refresh The Page Once if not working");
        </div>
         <Navbar/>
         <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons micinvisible"  onClick={Inputevent2} ><IconButton className=""><Mic  /></IconButton></span></div>
-        <div className="play">
+        <div className="play" ref={box} >
             {search2===''?Videos.map(ncard):Videos.map(zcard) }
         </div>
         </>
