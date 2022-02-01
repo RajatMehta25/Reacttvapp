@@ -21,6 +21,7 @@
     "react-scripts": "4.0.3",
     "react-speech-recognition": "^3.9.0",
     "react-toastify": "^8.1.0",
+    "sweetalert2": "^11.3.10",
     "video.js": "^7.15.4",
     "web-vitals": "^1.1.2"
   },

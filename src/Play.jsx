@@ -9,6 +9,8 @@ import './Play.css'
 import './Blink.css'
 import { IconButton } from '@mui/material';
 import { Mic} from '@material-ui/icons';
+import Swal from 'sweetalert2';
+import Poster from './video/poster.mp4'
 
 import SpeechRecognition,{useSpeechRecognition} from "react-speech-recognition";
 const Play = () => {
@@ -122,6 +124,8 @@ return ()=>{
 
     useEffect(()=>{
 // alert("Refresh The Page Once if not working");
+// Swal.fire('ENJOY !','','success');
+
     },[])
     
     function ncard(val,index){
@@ -142,9 +146,11 @@ return ()=>{
     
     
     function zcard(val,index){
-        const lower=val.title;
-        const q=lower.toLowerCase();
+      
         
+        if (val!==null){
+          const lower=(val.title===(null||undefined)?"":val.title);
+          const q=(lower===""?"":lower.toLowerCase());
       
         const x=q.includes(search2);
         
@@ -156,7 +162,7 @@ return ()=>{
     
         return (<>
             <Blink 
-            title={val.title}
+            // title={val.title}
              src={val.src} 
     poster={val.post} 
     key={index}
@@ -168,7 +174,8 @@ return ()=>{
     
     
     
-    };
+    }
+  };
     
 
 
@@ -193,7 +200,7 @@ return ()=>{
         <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons micinvisible"  onClick={Inputevent2} ><IconButton className=""><Mic  /></IconButton></span></div>
       
         <div className="play" ref={box} >
-            {search2===''?Videos.map(ncard):Videos.map(zcard) }
+            {search2===''?<><video src={Poster} muted autoPlay loop style={{width:"100vw" ,height:"60vh",border:"none",objectFit:"cover"}} /></>:Videos.map(zcard) }
         </div>
         </>
     )
