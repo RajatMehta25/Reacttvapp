@@ -200,7 +200,7 @@ return ()=>{
         <div id="search1"><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons micinvisible"  onClick={Inputevent2} ><IconButton className=""><Mic  /></IconButton></span></div>
       
         <div className="play" ref={box} >
-            {search2===''?<><video src={Poster} muted autoPlay loop style={{width:"100vw" ,height:"60vh",border:"none",objectFit:"cover"}} /></>:Videos.map(zcard) }
+            {search2===''?Videos.map(ncard):Videos.map(zcard) }
         </div>
         </>
     )
