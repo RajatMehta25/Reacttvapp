@@ -63,12 +63,12 @@ const Videos = [
 ,
 {
     title:"Star Sports select 1 HD",
-    src:  "http://live.flixhub.net/hls/Star_Sport_Select1HD.m3u8",     // "http://183.178.58.115:8020/0.m3u8",
+    src: "https://mkhossainx.github.io/mktv_live/channels/sports/ssp-select1.m3u8", //"http://live.flixhub.net/hls/Star_Sport_Select1HD.m3u8",     // "http://183.178.58.115:8020/0.m3u8",
     post:"data:image/jpeg;base64,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"
 },
 {
     title:"Star Sports select 2 HD",
-    src:"http://live.flixhub.net/hls/select2.m3u8",//"http://183.178.58.115:8021/0.m3u8",
+    src:"https://mkhossainx.github.io/mktv_live/channels/sports/ssp-select2.m3u8",//"http://live.flixhub.net/hls/select2.m3u8",//"http://183.178.58.115:8021/0.m3u8",
     post:"https://tma-live.s3.ap-south-1.amazonaws.com/medias/5989affc420c3c1917b60341/1600329108394/Star-Sports-Select-2_logo.png"
 },
 
@@ -643,18 +643,18 @@ const Videos = [
     post:"http://jiotv.catchup.cdn.jio.com/dare_images/images/Nick_Junior.png"
 }
 ,{
-    title:"",
-    src:"http://208.86.19.21:80/514.stream/index.m3u8",
-    post:""
+    title:"Sonic Hindi",
+    src:"https://livevoot-i.akamaihd.net/dash/live/876657/sonic/master.mpd",
+    post:"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png"
 }
 ,{
-    title:"",
-    src:"http://208.86.19.21:80/513.stream/index.m3u8",
-    post:""
+    title:"Colors Infinity",
+    src:"https://livevoot-i.akamaihd.net/dash/live/876252/colorsinfinity/master.mpd",
+    post:"http://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Infinity_HD.png"
 }
 ,{
-    title:"",
-    src:"http://208.86.19.21:80/512.stream/index.m3u8",
+    title:"Colors HD THop",
+    src:"http://thoptv.in1.bitmana.io/jioo.php?c=Colors_HD&q=800&e=.m3u8",
     post:""
 }
 ,{
