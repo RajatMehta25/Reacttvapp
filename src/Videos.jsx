@@ -638,9 +638,9 @@ const Videos = [
     post:"http://jiotv.catchup.cdn.jio.com/dare_images/images/Comedy_Central_HD.png"
 }
 ,{
-    title:"",
-    src:"http://208.86.19.21:80/515.stream/index.m3u8",
-    post:""
+    title:"Nick HD+",
+    src:"https://livevoot-i.akamaihd.net/dash/live/876653/nickjunior/master.mpd",
+    post:"http://jiotv.catchup.cdn.jio.com/dare_images/images/Nick_Junior.png"
 }
 ,{
     title:"",
