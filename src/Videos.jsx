@@ -38,6 +38,10 @@ const Videos = [
     post:"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png"
 },
 {   title:"Colors HD",
+    src: "https://livevoot-i.akamaihd.net/dash/live/828520-b/colorshd4/master.mpd",//"http://live.flixhub.net/hls/colore-tv-hd.m3u8",//"http://221.120.204.4/colours-hd-LOCKLE/tracks-v1a1/mono.m3u8", //https://feed.play.mv/live/10005200/6G8zJ9XsyB/master.m3u8 ,,http://221.120.204.4/colours-hd-LOCKLE/playlist.m3u8
+    post:"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png"
+},
+{   title:"Colors HD",
     src:"http://103.72.179.30:1935/GECHindi/COLORS.stream_720p/Playlist.m3u8", //https://feed.play.mv/live/10005200/6G8zJ9XsyB/master.m3u8 ,,http://221.120.204.4/colours-hd-LOCKLE/playlist.m3u8
     post:"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png"
 },
