@@ -222,7 +222,8 @@ return (
     <div className="header">
     <h4 className="heading">Developed By :</h4>
     <div className="namee"><a className="namee__word" href="https://www.instagram.com/thatsuaveboy/">RAJAT MEHTA</a></div>
-   </div>
+    </div>
+    {/* <div><i className="fas fa-instagram " style={{color:"white"}}/></div> */}
     <Navbar/>
     {/* <div style={{fontSize:30,color:'white',marginBottom:15,justifyContent:"center",textAlign:"center",fontFamily: 'Lato'}}>First select quality for channels : <Chip sx={{cursor:"pointer"}} name="SD" label="SD" color="error" size="medium" onClick={selectQuality}/> <Chip sx={{cursor:"pointer"}} name="HD" label="HD" color="error" size="medium"  onClick={selectQuality}/> <Chip sx={{cursor:"pointer"}} name="FHD" label="FHD" color="error" size="medium"  onClick={selectQuality}/> <Chip sx={{cursor:"pointer"}} name="UHD" label="UHD" color="error" size="medium"  onClick={selectQuality}/> </div> */}
     <div id="search1" ><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons micinvisible"  onClick={Inputevent2} ><IconButton className=""><Mic style={{marginTop:15}}  /></IconButton></span></div>
