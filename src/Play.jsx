@@ -28,8 +28,10 @@ import "slick-carousel/slick/slick-theme.css";
 const Play = () => {
   var settings = {
     autoplay: true,
-    arrows:true,
-    dots: true,
+    arrows: true,
+    accessibility: true,
+    draggable: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -42,7 +44,7 @@ const Play = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -268,7 +270,7 @@ const Play = () => {
       </div>
 
       <div className="play" ref={box}>
-        <Slider {...settings} style={{minHeight:"30vh"}}>
+        <Slider {...settings} style={{minHeight:"30vh",padding:10}}>
           {search2 === "" ? Videos.map(ncard) : Videos.map(zcard)}
         </Slider>
       </div>
