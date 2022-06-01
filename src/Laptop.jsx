@@ -11,7 +11,7 @@ import {  IconButton } from '@mui/material';
 import { Mic} from '@material-ui/icons';
 // import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import display from './abc.jpg'
 
 
 
@@ -228,7 +228,7 @@ return (
     {/* <div style={{fontSize:30,color:'white',marginBottom:15,justifyContent:"center",textAlign:"center",fontFamily: 'Lato'}}>First select quality for channels : <Chip sx={{cursor:"pointer"}} name="SD" label="SD" color="error" size="medium" onClick={selectQuality}/> <Chip sx={{cursor:"pointer"}} name="HD" label="HD" color="error" size="medium"  onClick={selectQuality}/> <Chip sx={{cursor:"pointer"}} name="FHD" label="FHD" color="error" size="medium"  onClick={selectQuality}/> <Chip sx={{cursor:"pointer"}} name="UHD" label="UHD" color="error" size="medium"  onClick={selectQuality}/> </div> */}
     <div id="search1" ><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons micinvisible"  onClick={Inputevent2} ><IconButton className=""><Mic style={{marginTop:15}}  /></IconButton></span></div>
     
-  <div className="rendered" style={sty}>{search2===''?<><div style={{textAlign:'center',marginTop:15}}><h1 style={{color:'white',fontFamily: 'Lato'}}>" LEARN & IMPROVISE "  </h1><img style={{borderRadius:10,height:"59vh",width:"90vw"}} src="https://thumbs.gfycat.com/AmpleDelightfulAmazonparrot-size_restricted.gif" /></div></>:JSON.parse(allData).map(zcard)}</div>
+  <div className="rendered" style={sty}>{search2===''?<><div style={{textAlign:'center',marginTop:15}}><h1 style={{color:'white',fontFamily: 'Lato'}}>" LEARN & IMPROVISE "  </h1><img style={{borderRadius:10,height:"59vh",width:"98vw"}} src={display} /></div></>:JSON.parse(allData).map(zcard)}</div>
    {/* <ToastContainer/> */}
     </>
 

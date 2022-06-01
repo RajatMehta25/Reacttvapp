@@ -10,7 +10,7 @@ import { Chip, IconButton } from '@mui/material';
 import { Mic} from '@material-ui/icons';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import display from "./abc.jpg";
 
 
 
@@ -227,7 +227,7 @@ return (
     <div style={{fontSize:30,color:'white',marginBottom:15,justifyContent:"center",textAlign:"center",fontFamily: 'Lato'}}>First select quality for channels : <Chip className="chipdesign" name="SD" label="SD" color="error" size="medium" onClick={selectQuality}/> <Chip className="chipdesign" name="HD" label="HD" color="error" size="medium"  onClick={selectQuality}/> <Chip className="chipdesign" name="FHD" label="FHD" color="error" size="medium"  onClick={selectQuality}/> <Chip className="chipdesign" name="UHD" label="UHD" color="error" size="medium"  onClick={selectQuality}/> </div>
     <div id="search1" ><input type="text" name="search" placeholder="SEARCH , ऐथे लब्बो" id="search" value={search2} onChange={Inputevent}/><span className="material-icons micinvisible"  onClick={Inputevent2} ><IconButton className="" ><Mic style={{marginTop:15}}  /></IconButton></span></div>
     
-  <div className="rendered" style={sty}>{search2===''?<><div style={{textAlign:'center',marginTop:15}}><h1 style={{color:'white',fontFamily: 'Lato'}}>" Desperate times call for desperate measures "  </h1><img style={{borderRadius:10,height:"59vh",width:"90vw"}} src="https://i.pinimg.com/originals/e8/3a/f4/e83af4b55a4bb78618d7ace6885eb822.gif" alt="sabrr kro" /></div></>:JSON.parse(allData).map(zcard)}</div>
+  <div className="rendered" style={sty}>{search2===''?<><div style={{textAlign:'center',marginTop:15}}><h1 style={{color:'white',fontFamily: 'Lato'}}>" Desperate times call for desperate measures "  </h1><img style={{borderRadius:10,height:"59vh",width:"90vw"}} src={display} alt="sabrr kro" /></div></>:JSON.parse(allData).map(zcard)}</div>
    <ToastContainer/>
     </>
 
