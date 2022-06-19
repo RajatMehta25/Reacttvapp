@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Reacttvapp/static/css/main.0d6895a8.chunk.css",
-    "main.js": "/Reacttvapp/static/js/main.022b8ec3.chunk.js",
-    "main.js.map": "/Reacttvapp/static/js/main.022b8ec3.chunk.js.map",
+    "main.js": "/Reacttvapp/static/js/main.86737fea.chunk.js",
+    "main.js.map": "/Reacttvapp/static/js/main.86737fea.chunk.js.map",
     "runtime-main.js": "/Reacttvapp/static/js/runtime-main.7c1434a5.js",
     "runtime-main.js.map": "/Reacttvapp/static/js/runtime-main.7c1434a5.js.map",
     "static/css/2.bdc298f3.chunk.css": "/Reacttvapp/static/css/2.bdc298f3.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.bdc298f3.chunk.css",
     "static/js/2.441c84ba.chunk.js",
     "static/css/main.0d6895a8.chunk.css",
-    "static/js/main.022b8ec3.chunk.js"
+    "static/js/main.86737fea.chunk.js"
   ]
 }
