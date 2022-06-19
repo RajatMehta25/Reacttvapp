@@ -14,7 +14,7 @@ const Blink = (props) => {
     preload="auto"
     width="300"
           height="250"
-          style={{filter: "drop-shadow(0 0 2rem crimson)"}}
+          // style={{filter: "drop-shadow(0 0 2rem crimson)"}}
     poster={props.poster}
   
     playsInline

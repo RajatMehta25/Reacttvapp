@@ -270,9 +270,10 @@ const Play = () => {
       </div>
 
       <div className="play" ref={box}>
-        <Slider {...settings} style={{minHeight:"30vh",padding:10}}>
+      
           {search2 === "" ? Videos.map(ncard) : Videos.map(zcard)}
-        </Slider>
+          
+        
       </div>
     </>
   );
