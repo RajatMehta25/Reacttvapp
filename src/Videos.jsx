@@ -729,26 +729,26 @@ const Videos = [
   //     post:""
   // }
   // ,
-  //    { title:"",
-  //     src:"",
-  //     post:""
-  // }
-
-  // ,{
-  //     title:"",
-  //     src:"",
-  //     post:""
-  // }
-  // ,{
-  //     title:"",
-  //     src:"",
-  //     post:""
-  // }
-  // ,
   {
-    title: "",
-    src: "http://103.118.76.229:1935/tvprogram/STAR-SPORTS-SELECT1/playlist.m3u8",
-    post: "",
+    title: "Blue Ant Extreme",
+    src: "http://playlist.urfan.web.id/dr9445/h/h15/01.m3u8",
+    post: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Blue_ant_extreme_logo.png",
+  },
+
+  {
+    title: "Blue Ant Entertainment",
+    src: "http://45.126.83.51/dr9445/h/h16/01.m3u8",
+    post: "https://upload.wikimedia.org/wikipedia/commons/7/78/Blue_ant_entertainment_logo.png",
+  },
+  {
+    title: "AXN HD",
+    src: "http://210.210.155.35:80/dr9445/h/h141/01.m3u8",
+    post: "https://upload.wikimedia.org/wikipedia/commons/3/37/AXN_Logo.PNG",
+  },
+  {
+    title: "HBO Plus",
+    src: "http://213.151.233.20:8000/dna-6129-tv-pc/hls/4001v102.m3u8",
+    post: "https://upload.wikimedia.org/wikipedia/commons/3/3d/HBO_Plus.png",
   },
   {
     title: "MTV US",
