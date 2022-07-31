@@ -20,10 +20,11 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
+import MD5 from "crypto-js/md5";
+import axios from "axios";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 const Play = () => {
   var settings = {
@@ -192,6 +193,160 @@ const Play = () => {
     }
   }
 
+  var jctBase = "cutibeau2ic";
+
+  let ssoToken =
+    "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiI0NWU1OTMzMC1mZmQ4LTRjNmMtOTk4NS1mZTg5ZjIyMjMyZWIiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjQwIiwiZGV2aWNlSWQiOiJjNDMyMTNhOGMzYjljNTAxYzI4MDY1NjRiYzNkNjlhNDkwY2IwZDdiOTM0MzI4MDQ5Mzk1MTU0Mzk3NmViOTM2ZDcxNmZmZTMwYmNjM2UxOWU1MTMzZjNiNTg1MjNiNGY3OGU0YWMxYjFhYzc4MTVjNTNjMTE5MDBkYTM0ZTEwZCIsImp0aSI6IjZiMDQwNDdlLTk4OTgtNDkzOC04M2ZjLTJmMGNiMjBjYzkwYSIsImlhdCI6MTYyMjEyNDkzNn0.VGU9LzWWshG2RAKm6jnAG0CUil7NvkZlWa04jJR8koU";
+
+  // var Settlement = [];
+  // Settlement.base64_encode = function (text) {
+  //   // Tested in chrome browser
+  //   return window.btoa(unescape(encodeURIComponent(text)));
+  // };
+  // Settlement.time = function () {
+  //   return Math.floor(new Date().getTime() / 1000);
+  // };
+  // console.log(Settlement.time());
+  // console.log(Settlement.base64_encode("test"));
+  function tokformat(str) {
+    str = btoa(MD5(str).toString());
+    let a = str.replace("\n", "");
+    let b = a.replace("\r", "");
+    let c = b.replace("/", "_");
+    let d = c.replace("+", "-");
+    let e = d.replace("=", "");
+    return e;
+  }
+
+  function generateJct(st, pxe) {
+    // let jct = jctBase + "." + st + "." + pxe;
+    // return jct;
+
+    let a = tokformat(jctBase + st + pxe);
+    let b = a.trim();
+    return a;
+  }
+  function generatePxe() {
+    const d = new Date();
+    return d.getTime() + 6000000;
+  }
+  function generateSt() {
+    var ssoToken;
+    return tokformat(ssoToken);
+  }
+  function generateToken() {
+    var st = generateSt();
+    var pxe = generatePxe();
+    var jct = generateJct(st, pxe);
+    return "?jct=" + jct + "&pxe=" + pxe + "&st=" + st;
+  }
+
+  console.log(generateToken());
+
+  // stream
+
+  let p = generateToken();
+
+  let key = "Colors_HD.m3u8";
+
+  if (key != "") {
+    let opts = {
+      headers: {
+        UserAgent: "plaYtv/5.8.1 (Linux;Android 9) ExoPlayerLib/2.8.0\r\n",
+        lbcookie: "300\r\n",
+        devicetype: " Kodi\r\n",
+        os: "android\r\n",
+        appkey: " NzNiMDhlYzQyNjJm\r\n",
+        deviceId: " 2f5f4c6443fe0800\r\n",
+        versionCode: " 226\r\n",
+        osVersion: "9\r\n",
+        isott: " true\r\n",
+        languageId: "6\r\n",
+        uniqueId: "45e59330-ffd8-4c6c-9985-fe89f22232eb\r\n",
+        srno: "200206173037\r\n",
+        usergroup: " tvYR7NSNn7rymo3F\r\n",
+        channelid: "472\r\n",
+        ssotoken:
+          "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiI0NWU1OTMzMC1mZmQ4LTRjNmMtOTk4NS1mZTg5ZjIyMjMyZWIiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjQwIiwiZGV2aWNlSWQiOiJjNDMyMTNhOGMzYjljNTAxYzI4MDY1NjRiYzNkNjlhNDkwY2IwZDdiOTM0MzI4MDQ5Mzk1MTU0Mzk3NmViOTM2ZDcxNmZmZTMwYmNjM2UxOWU1MTMzZjNiNTg1MjNiNGY3OGU0YWMxYjFhYzc4MTVjNTNjMTE5MDBkYTM0ZTEwZCIsImp0aSI6IjZiMDQwNDdlLTk4OTgtNDkzOC04M2ZjLTJmMGNiMjBjYzkwYSIsImlhdCI6MTYyMjEyNDkzNn0.VGU9LzWWshG2RAKm6jnAG0CUil7NvkZlWa04jJR8koU\r\n",
+      },
+    };
+
+    // let cache = key.replace("/", "_");
+
+    // if (!file_exists(cache)) {
+    // let context = stream_context_create(opts);
+    let data = axios.get(
+      `https://tv.media.jio.com/streams_live/${key}${p}`,
+      opts
+    );
+    let opts2 = {
+      headers: {
+        "User-Agent":
+          "plaYtv/5.3.2 (Linux;Android 5.1.1) ExoPlayerLib/2.3.0\r\n",
+      },
+    };
+    let data2 = axios.get(
+      `https://jiotvweb.cdn.jio.com/jiotv.live.cdn.jio.com/Colors_HD/Colors_HD_250.m3u8${p}`
+    );
+    console.log(data2);
+    console.log(data);
+    // } else {
+    // let haystack = axios.get(cache);
+    console.log(data);
+  }
+
+  const getstream = async () => {
+    let opts2 = {
+      headers: {
+        "User-Agent":
+          "plaYtv/5.3.2 (Linux;Android 5.1.1) ExoPlayerLib/2.3.0\r\n",
+      },
+    };
+    const response = await axios.get(
+      `https://jiotvweb.cdn.jio.com/jiotv.live.cdn.jio.com/Colors_HD/Colors_HD_250.m3u8`,
+
+      {
+        responseType: "stream",
+      }
+    );
+    console.log(response);
+
+    const stream = response.data;
+    stream.on("data", (data) => {
+      data = data.toString();
+      console.log(data);
+    });
+  };
+  getstream();
+
+  let ts = "Colors_HD.ts";
+  if (ts != "") {
+    let opts = {
+      headers: {
+        UserAgent:
+          "plaYtv/5.3.2 (Linux;Android 5.1.1) ExoPlayerLib/2.3.0/2.3.0\r\n",
+
+        ContentType: "video/mp2t",
+        Connection: "keep-alive",
+        AccessControlAllowOrigin: " *",
+        AccessControlExposeHeaders: " Content-Length,Content-Range",
+        AccessControlAllowHeaders: " Range",
+        AcceptRanges: " bytes",
+      },
+    };
+
+    // context = stream_context_create(opts);
+    let haystack = axios.get(
+      "http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/" + ts,
+      opts
+    );
+    console.log(haystack);
+  }
+  let check = axios.get(
+    "http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/Mastiii/Mastiii_800.m3u8"
+  );
+  console.log(check);
+
   return (
     <>
       <div className="header">
@@ -270,11 +425,9 @@ const Play = () => {
       </div>
 
       <div className="play" ref={box}>
-      
-          {search2 === "" ? Videos.map(ncard) : Videos.map(zcard)}
-          
-        
+        {search2 === "" ? Videos.map(ncard) : Videos.map(zcard)}
       </div>
+      <div></div>
     </>
   );
 };
